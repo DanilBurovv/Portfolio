@@ -1,0 +1,9 @@
+.grid-banner{
+    @include e (btn){
+        @include btn-hover;
+        &:hover .grid-banner__link{
+            color: $white;
+            transition: 0.5s;
+        }
+    }
+}

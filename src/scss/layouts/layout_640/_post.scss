@@ -1,0 +1,24 @@
+.slider-top {
+    @include e(content-container){
+        width: 300px;
+        left: 50%;
+        top: 25%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: initial;
+    }
+}
+
+.second-container{
+    left: 10%;
+}
+ 
+/*------------------------------post-bottom------------------------------*/
+
+.post-bottom{
+    padding: 0 40px;
+}
+
+.slide {
+    margin: 0 15px;
+}

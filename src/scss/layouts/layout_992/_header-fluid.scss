@@ -1,0 +1,26 @@
+.header-currency{
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+.header-links{
+    margin-left: 1.5rem;
+    @include e (link){
+        &:hover svg{
+            fill: $red;
+            transition: 0.5s;
+        }
+    }
+}
+
+.open-btn{
+    cursor: pointer;
+}
+
+.up-btn{
+    &:hover{
+        background-color: $red;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}

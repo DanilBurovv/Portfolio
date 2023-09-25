@@ -1,0 +1,48 @@
+.products-search {
+    background-color: $searchFormColor;
+    display: flex;
+    justify-content: space-between;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.search-form{
+    display: flex;
+    flex: 1;
+    padding: 0 20px;
+    margin: 20px 0 20px 40px;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: $white;
+    @include e (txt) {
+        border: none;
+        flex: 1;
+        min-width: 125px;
+        outline: none;
+        font-size: 20px;
+        padding-right: 10px;
+        &::placeholder{font-size: 16px;}
+    }
+    @include e (btn){
+        border: none;
+        padding: 12px 15px;
+        margin-right: -20px;
+        border-radius: 30px;
+        background-color: $black;
+    } 
+    @include e (image){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: $black;
+        fill: $white;
+    }
+}
+.exit-btn {
+    margin-left: 15px;
+    margin-right: 30px;
+}

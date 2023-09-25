@@ -1,0 +1,23 @@
+.slider-top {
+    height: 650px;
+        @include e(content-container){
+            width: 760px;
+            left: 37%;
+            top: 20%;
+        }
+        @include e (content){
+        @include m (heading){
+            font-size: 100px;
+        }
+    }
+    }
+
+.second-container{
+    left: 2%;
+}
+
+/*-----------------------------------slider-bottom-----------------------------------*/
+
+.slider-bottom{
+    max-width: 1090px;
+}

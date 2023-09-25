@@ -1,0 +1,13 @@
+.slider-top{
+    width: auto;
+    @include e (img){
+        max-width: 100%;
+    }
+    @include e(content-container){
+        left: 45%;
+    }   
+}
+
+.second-container{
+    left: 5%;
+}
